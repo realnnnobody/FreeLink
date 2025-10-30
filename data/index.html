@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>LoRa Chat</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="app">
+    <header>LoRa Chat • Device: <span id="devip">...</span></header>
+    <div id="msgs" class="messages"></div>
+    <div class="hint">Your messages appear on the right; remote on the left.</div>
+    <footer>
+      <input id="input" type="text" placeholder="Type message and press Send" autocomplete="off" />
+      <button id="send">Send</button>
+    </footer>
+  </div>
+<script src="/app.js"></script>
+</body>
+</html>
